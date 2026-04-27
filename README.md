@@ -1,3 +1,38 @@
+# 📱 CepAnalist
+
+**CepAnalist**, borsa ve finans verilerini makine öğrenmesi algoritmalarıyla analiz eden, gerçek zamanlı sinyaller üreten modern bir Full-Stack mobil uygulamadır. Kullanıcılara teknik analiz ve fiyat tahminlerini kullanıcı dostu bir arayüzle sunar.
+
+---
+
+## 🛠️ Teknolojiler
+
+<div align="center">
+
+| **Backend** | **Frontend** | **Veri & ML** |
+|:---:|:---:|:---:|
+| ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) | ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) | ![Expo](https://img.shields.io/badge/expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white) | ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) |
+| ![Uvicorn](https://img.shields.io/badge/uvicorn-20232a?style=for-the-badge) | ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) | ![YFinance](https://img.shields.io/badge/Yahoo--Finance-FF0000?style=for-the-badge) |
+
+</div>
+
+---
+
+## 📁 Proje Yapısı
+
+```text
+CepAnalist/
+├── backend/                # API ve Makine Öğrenmesi katmanı
+│   ├── main.py             # Sunucu giriş noktası (FastAPI)
+│   ├── models/             # Eğitilmiş ML modelleri (.pkl)
+│   ├── scripts/            # Veri çekme ve işleme araçları
+│   ├── services/           # Analiz ve tahmin mantığı
+│   └── requirements.txt    # Python kütüphaneleri
+├── frontend/               # Mobil Uygulama katmanı
+│   └── CepAnalistMobil/    # React Native / Expo projesi
+└── README.md               # Proje dökümantasyonu
+
+'''text
 CepAnalist/
 ├── backend/                # Tüm Python, Yapay Zeka ve API işleri burada
 │   ├── main.py             # FastAPI'nin giriş noktası
@@ -7,6 +42,7 @@ CepAnalist/
 │   └── requirements.txt    # Az önce hazırladığımız kütüphane listesi
 ├── frontend/               # React Native (Mobil Uygulama) kodları burada
 └── README.md               # Proje açıklaması
+text'''
 
 ## Kurulum ve Çalıştırma (Kısa Özet)
 
