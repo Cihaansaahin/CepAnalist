@@ -31,18 +31,8 @@ CepAnalist/
 ├── frontend/               # Mobil Uygulama katmanı
 │   └── CepAnalistMobil/    # React Native / Expo projesi
 └── README.md               # Proje dökümantasyonu
+```
 
-'''text
-CepAnalist/
-├── backend/                # Tüm Python, Yapay Zeka ve API işleri burada
-│   ├── main.py             # FastAPI'nin giriş noktası
-│   ├── models/             # Eğittiğimiz AI modellerini (.pkl) buraya kaydedeceğiz
-│   ├── scripts/            # Veri çekme ve analiz scriptleri
-│   ├── services/           # İş mantığı (ML tahminleri, teknik analiz)
-│   └── requirements.txt    # Az önce hazırladığımız kütüphane listesi
-├── frontend/               # React Native (Mobil Uygulama) kodları burada
-└── README.md               # Proje açıklaması
-text'''
 
 ## Kurulum ve Çalıştırma (Kısa Özet)
 
@@ -50,7 +40,7 @@ text'''
 
 1. Terminal (PowerShell) aç:
    ```powershell
-   cd "c:\Users\cihan\OneDrive\Masaüstü\CEPANALIST\backend"
+   cd "c:\Users\cihan\OneDrive\Masaüstü\CEPANALIST\backend" (kendi dosya yolunuz)
    ```
 2. Sanal ortam oluştur ve aktif et (ilk kurulumda):
    ```powershell
@@ -105,3 +95,12 @@ text'''
   - Güven oranı,
   - Son fiyat,
   - Son 20 günlük fiyat grafiği ekranda görünür.
+
+## 📸 Uygulama Ekran Görüntüleri
+
+<div align="center">
+  <img src="./screenshots/app_ss1.png" width="30%" />
+  <img src="./screenshots/app_ss2.png" width="30%" />
+  <img src="./screenshots/app_ss3.png" width="30%" />
+  <img src="./screenshots/app_ss4.png" width="30%" />
+</div>
