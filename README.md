@@ -99,8 +99,8 @@ CepAnalist/
 ## 📸 Uygulama Ekran Görüntüleri
 
 <div align="center">
-  <img src="./screenshots/app_ss1.png" width="30%" />
-  <img src="./screenshots/app_ss2.png" width="30%" />
-  <img src="./screenshots/app_ss3.png" width="30%" />
-  <img src="./screenshots/app_ss4.png" width="30%" />
+  <img src="screenshots/app_ss1.png.jpeg" width="24%" />
+  <img src="screenshots/app_ss2.png.jpeg" width="24%" />
+  <img src="screenshots/app_ss3.png.jpeg" width="24%" />
+  <img src="screenshots/app_ss4.png.jpeg" width="24%" />
 </div>
