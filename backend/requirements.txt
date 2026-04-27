@@ -1,0 +1,16 @@
+# Web API Sunucusu
+fastapi
+uvicorn[standard]
+
+# Finansal Veri ve Analiz
+yfinance
+pandas
+pandas-ta
+numpy
+
+# Yapay Zeka ve Makine Öğrenmesi
+scikit-learn
+
+# Yardımcı Araçlar
+python-dotenv
+requests

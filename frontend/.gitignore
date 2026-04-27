@@ -1,0 +1,15 @@
+# Backend
+backend/venv/
+backend/.env
+backend/__pycache__/
+*.pyc
+
+# Frontend
+frontend/CepAnalistMobil/node_modules/
+frontend/CepAnalistMobil/.expo/
+frontend/CepAnalistMobil/dist/
+
+# Sistem ve OneDrive
+.DS_Store
+Thumbs.db
+desktop.ini
